@@ -31,7 +31,7 @@ public class Session extends HttpServlet{
 			String username=(String) session.getAttribute("username");
 
 			//Display welcome msg and session info
-			out.println("<html><head><title>Welcome</title><?head><body>");
+			out.println("<html><head><title>Welcome</title></head><body>");
 			out.println("<h2> Welcome : "+username+"!</h2>");
 			out.println("<p><a href='Session?logout=true'>Logout</a></p>");
 			out.println("<h3> Session INfo: </h3>");
