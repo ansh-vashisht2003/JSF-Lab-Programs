@@ -48,7 +48,7 @@ public class Session extends HttpServlet{
 			out.println("Username: <input type='text' name='username'><br><br>");
 			out.println("Password: <input type='password' name='password'><br><br>");
 			out.println("<input type='Submit' value='login'>");
-			out.println("</body><?html>");
+			out.println("</body></html>");
 
 		}
 
