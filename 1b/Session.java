@@ -42,7 +42,7 @@ public class Session extends HttpServlet{
 
 		}else {
 			//if not logied then dispLAY THE FORM
-			out.println("<html><head><title>LOGIN fORM</title><?head><body>");
+			out.println("<html><head><title>LOGIN fORM</title></head><body>");
 			out.println("<h2>LOGIN</h2>");
 			out.println("<form method='post' action ='Session'>");
 			out.println("Username: <input type='text' name='username'><br><br>");
