@@ -41,7 +41,7 @@
 		</tr>
 		<tr>
 			<th>Formatted email id</th>
-			<td><%=email%></td>
+			<td><%=formattedEmail%></td>
 		</tr>
 	</table>
 </body>
