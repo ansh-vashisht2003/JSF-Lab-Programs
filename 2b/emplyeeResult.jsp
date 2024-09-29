@@ -96,7 +96,7 @@
         <% if (!emailerror.isEmpty()) { %><li>
         <b>Email: </b> <%= emailerror %></li><% } %>
     </ul><% } %>
-    <a href="Employeehtml.jsp" >Back to index</a>
+    <a href="employeehtml.jsp" >Back to index</a>
 
 </body>
 </html>
