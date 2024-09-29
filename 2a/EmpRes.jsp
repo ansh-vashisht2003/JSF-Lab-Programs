@@ -44,5 +44,6 @@
 			<td><%=formattedEmail%></td>
 		</tr>
 	</table>
+	<a href="Empform.jsp" >Back to index</a>
 </body>
 </html>
