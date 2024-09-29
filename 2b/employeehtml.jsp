@@ -23,3 +23,4 @@ Email: <input type="email" name="email" required>
 </form>
 
 </body>
+</html>
