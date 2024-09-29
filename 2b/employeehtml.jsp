@@ -17,7 +17,7 @@ Department: <select name="department" required>
 	<option value="IT">IT </option>
 	<option value="Sales">Sales</option>
 	</select><br>
-Email: <input type="email" name="email">
+Email: <input type="email" name="email" required>
 <input type="submit" value="submit">
 
 </form>
