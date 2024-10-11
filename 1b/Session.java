@@ -31,7 +31,7 @@ public class Session extends HttpServlet{
 			String username=(String) session.getAttribute("username");
 
 			//Display welcome msg and session info
-			out.println("<html><head><title>Welcome</title><?head><body>");
+			out.println("<html><head><title>Welcome</title></head><body>");
 			out.println("<h2> Welcome : "+username+"!</h2>");
 			out.println("<p><a href='Session?logout=true'>Logout</a></p>");
 			out.println("<h3> Session INfo: </h3>");
@@ -42,13 +42,13 @@ public class Session extends HttpServlet{
 
 		}else {
 			//if not logied then dispLAY THE FORM
-			out.println("<html><head><title>LOGIN fORM</title><?head><body>");
+			out.println("<html><head><title>LOGIN fORM</title></head><body>");
 			out.println("<h2>LOGIN</h2>");
 			out.println("<form method='post' action ='Session'>");
 			out.println("Username: <input type='text' name='username'><br><br>");
 			out.println("Password: <input type='password' name='password'><br><br>");
 			out.println("<input type='Submit' value='login'>");
-			out.println("</body><?html>");
+			out.println("</body></html>");
 
 		}
 
